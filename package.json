@@ -1,0 +1,19 @@
+{
+  "name": "centos-web-proxy",
+  "version": "1.0.0",
+  "description": "CentOS Web Proxy with YouTube and Twitch support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "cheerio": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
